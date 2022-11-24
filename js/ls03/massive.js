@@ -123,3 +123,41 @@
 // }
 
 // ! ============================
+
+// Example 5 - Масиви та рядки
+
+// Напиши скрипт, який виводить у консоль усі слова рядка крім першого і останнього.
+// Результуючий рядок не повинен починатися або закінчуватися символ пробілу.Скрипт повинен працювати для будь - якого рядка.
+
+// const string = 'Welcome to the future dfdfdfd dfddf';
+// const stringMassive = string.split(' ');
+// console.log(stringMassive);
+
+// console.log(stringMassive.slice(1, stringMassive.length - 1));
+
+// ! ============================
+
+// Example 8 - Пошук елемента
+// Напиши скрипт пошуку найменшого числа у масиві. Код повинен працювати для будь-якого масиву чисел. Використовуй цикл для розв'язання задачі.
+
+// const numbers = [2, 17, 94, 1, 23, 37];
+// let min = numbers[0];
+
+// for (let i = 0; i < numbers.length; i += 1) {
+// console.log(numbers[i]);
+//     if (numbers[i] < min) min = numbers[i];
+// }
+
+// for (const number of numbers) {
+//     if (number < min) min = number;
+// }
+// console.log(min);
+
+// Еще не проходили
+
+// ! ============================
+
+// Example 7 - Сортування масиву із циклом
+// Напиши скрипт сортування масиву рядків в алфавітному порядку за першою літерою елемента.
+
+// const langs = ['python', 'javascript', 'c++', 'haskel', 'php', 'ruby'];
