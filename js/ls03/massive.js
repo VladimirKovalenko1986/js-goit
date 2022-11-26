@@ -161,3 +161,25 @@
 // Напиши скрипт сортування масиву рядків в алфавітному порядку за першою літерою елемента.
 
 // const langs = ['python', 'javascript', 'c++', 'haskel', 'php', 'ruby'];
+
+// 1 variant через метод sort
+
+// const langsSorted = langs.sort();
+
+// console.log(langsSorted);
+
+// 2 Variant метод перебору
+
+// for (const i in langs) {
+//     let wasSwap = false;
+//     for (let j = 0; j < langs.length - 1 - i; j += 1) {
+//         if (langs[j].charCodeAt(0) > langs[j + 1].charCodeAt(0)) {
+//             const swap = langs[j];
+//             langs[j] = langs[j + 1];
+//             langs[j + 1] = swap;
+//             wasSwap = true;
+//         }
+//     }
+// }
+
+// console.log(langs);
