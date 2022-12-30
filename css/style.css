@@ -1,0 +1,85 @@
+/* .indents {
+    margin: 5px;
+} */
+
+/* .text {
+    font-family: sans-serif;
+    font-size: 30px;
+    cursor: pointer;
+} */
+
+/* !!!!!!Modal!!!!!!! */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    height: 100vh;
+    padding-top: 50px;
+
+    position: relative;
+}
+
+body.open {
+    overflow-y: hidden;
+}
+
+body.open > .modal-window,
+body.open > .overlay {
+    display: block;
+}
+
+.theme {
+    color: lime;
+    background-color: black;
+    border: 3px solid lime;
+    border-radius: 10px;
+}
+
+.open-modal-btn {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 15px;
+    font-size: 30px;
+    cursor: pointer;
+    outline: none;
+}
+
+.modal-window {
+    font-size: 70px;
+    padding: 100px 90px;
+    text-transform: uppercase;
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%, -50%);
+    z-index: 99;
+    display: none;
+}
+
+.close-btn {
+    position: absolute;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color: lime;
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 20px;
+    top: 15px;
+    right: 15px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+}
