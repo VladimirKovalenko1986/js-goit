@@ -41,3 +41,5 @@ function handleModalOpen() {
 function handleModalClose() {
     document.body.classList.remove(openClass);
 }
+
+// dadasdassa
