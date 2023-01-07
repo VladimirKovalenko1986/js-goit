@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="./css/style.css" />
+    </head>
+    <body>
+        <!-- <div id="parentDiv">
+            <a href="https://www.google.com/" target="_blank" id="childA"
+                >Link</a
+            ><a href="https://www.google.com/">Link 2</a>
+        </div> -->
+
+        <!-- !!!!Data-atribute!!!!! -->
+
+        <!-- <p id="text" data-length="10">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias,
+            repellendus?
+        </p> -->
+
+        <!-- !====== Занурення та Сплиття-->
+        <!-- <section>
+            Section
+            <div>
+                DIV
+                <p>P</p>
+            </div>
+        </section> -->
+
+        <!-- !!!!!!Задачка -->
+        <div class="conteiner">
+            <h2 class="title">Скільки коштує мясо на шашлик?</h2>
+
+            <form action="#" class="form" id="form">
+                <label for="price">Ціна грн</label>
+                <input type="text" id="price" name="price" value="50" />
+                <label for="quantity"
+                    >Кількість <span class="amount" id="amount">1</span>кг
+                </label>
+                <input
+                    type="range"
+                    id="quantity"
+                    name="quantity"
+                    value="1"
+                    min="1"
+                    ,
+                    max="20"
+                />
+            </form>
+            <p class="text-right total" id="total"></p>
+        </div>
+        <script src="./js/ls08/patern.js"></script>
+    </body>
+</html>
