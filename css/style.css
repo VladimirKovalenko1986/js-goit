@@ -16,11 +16,11 @@
 }
 
 body {
+    position: relative;
     font-family: sans-serif;
     height: 100vh;
     padding-top: 50px;
-
-    position: relative;
+    height: 500vh;
 }
 a {
     margin: 10px;
@@ -101,14 +101,14 @@ body.open > .overlay {
     text-align: center;
 }
 
-input {
+/* input {
     display: block;
     width: 100%;
     border-radius: 3px;
     border: 1px solid black;
     padding: 5px;
     margin-top: 10px;
-}
+} */
 
 #price {
     margin-bottom: 10px;
@@ -132,4 +132,65 @@ input {
 
 .erorr {
     border: 2px solid red;
+}
+
+/* !!!!Throttle */
+
+.counter {
+    position: fixed;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    margin: 10px;
+    font-size: 20px;
+    padding: 10px 15px;
+    border: 3px solid orange;
+    border-radius: 8px;
+}
+
+/* ! Debouns */
+
+.input {
+    margin: 30px;
+}
+
+/* !Задачка */
+
+form {
+    width: 200px;
+    margin-left: 50px;
+    text-align: center;
+}
+
+fieldset {
+    border-radius: 10px;
+    border: 2px solid orange;
+    background-color: rgba(0, 0, 0, 0.132);
+}
+
+form label {
+    display: block;
+    margin: 10px;
+}
+
+form label input {
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    outline: none;
+    padding: 5px;
+    border: 2px solid orange;
+    margin-top: 10px;
+}
+
+.wrong {
+    border-color: red;
+}
+
+.correct {
+    border-color: green;
 }
